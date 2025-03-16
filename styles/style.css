@@ -35,7 +35,7 @@ address {
 .menu_items {
     display: flex;
     flex-direction: row;
-    gap: 32px; 
+    gap: 32px;
     grid-column-start: 5;
     grid-column-end: 5;
 }
@@ -160,7 +160,7 @@ address {
 .lots {
     padding-top: 180px;
     padding-right: 24px;
-    padding-bottom: 50px; 
+    padding-bottom: 50px;
     padding-left: 24px;
 }
 
@@ -277,7 +277,7 @@ address {
     justify-self: center;
     grid-column-start: 2;
     grid-column-end: 8;
-    padding-right: 50px;    
+    padding-right: 50px;
 }
 
 .about__logo-image {
