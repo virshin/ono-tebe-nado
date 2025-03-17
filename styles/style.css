@@ -16,7 +16,7 @@ address {
 .header {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    padding: 94px 50px;
+    padding: 90px 50px;
     align-items: center;
     justify-content:space-between;
 }
@@ -60,9 +60,10 @@ address {
 
 .head_logo {
     width: 148px;
-    height: 105px;
-    background-image: url(../images/logo-black.svg);
-    background-repeat: no-repeat;
+}
+
+.header__logo-image {
+    width: 100%;
 }
 
 .address {
