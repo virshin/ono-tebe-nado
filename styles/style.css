@@ -7,37 +7,27 @@ li {
 
 /* БЛОК МЕНЮ */
 
-address {
-    font-style: normal;
-    text-decoration: none;
-    border: 1px black;
-}
-
 .header {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    padding: 90px 50px;
+    padding: 91px 50px 97px;
     align-items: center;
-    justify-content:space-between;
 }
 
 .menu {
     display: flex;
-    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
     grid-column-start: 1;
     grid-column-end: 4;
-    justify-content:space-between;
-
-
 }
 
 .menu_items {
     display: flex;
-    flex-direction: row;
     gap: 32px;
-    grid-column-start: 5;
-    grid-column-end: 5;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .menu_item {
@@ -49,32 +39,34 @@ address {
 .menu__circle {
     list-style: circle;
     margin-right: 5px;
-
 }
 
 .menu_item_active {
-    list-style: none;
     border-bottom: none;
-
 }
 
-.head_logo {
-    width: 148px;
+.header__logo {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
 .header__logo-image {
-    width: 100%;
+    width: 136px;
 }
 
 .address {
     grid-column-start: 6;
     grid-column-end: 8;
-    padding-left: 45px;
+    padding-left: 46px;
 }
 
 .address-line {
     font-size: 18px;
     line-height: 24.3px;
+    font-style: normal;
 }
 
 
@@ -105,8 +97,9 @@ address {
 .cover__title {
     display: flex;
     flex-direction: column;
-    row-gap: 24px;
-    margin-bottom: 135px;
+    row-gap: 36px;
+    margin-bottom: 112px;
+    margin-right: -30px;
     font-size: 100px;
     font-weight: 700;
     line-height: 100%;
@@ -129,7 +122,7 @@ address {
 
 .cover__description {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -235,6 +228,7 @@ address {
     line-height: 120%;
     text-decoration: underline;
     text-transform: uppercase;
+    margin-bottom: 32px;
 }
 
 .card__text {
@@ -259,7 +253,7 @@ address {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     column-gap: 24px;
-    padding-top: 130px;
+    padding-top: 105px;
 }
 
 .about__logo {
@@ -316,7 +310,7 @@ address {
     grid-column-start: 1;
     grid-column-end: 3;
     padding-top: 40px;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 
 .footer__menu {
