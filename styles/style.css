@@ -50,7 +50,7 @@ li {
     grid-column-end: 5;
     display: flex;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .header__logo-image {
