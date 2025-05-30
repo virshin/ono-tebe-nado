@@ -1,1 +1,1 @@
-https://github.com/virshin/ono-tebe-nado
+https://github.com/virshin/ono-tebe-nado-fd
